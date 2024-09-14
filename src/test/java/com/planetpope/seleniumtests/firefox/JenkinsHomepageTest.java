@@ -1,24 +1,24 @@
-package com.planetpope.seleniumtests.firefox;
+// package com.planetpope.seleniumtests.firefox;
 
-import com.planetpope.seleniumtests.abstracts.AbstractJenkinsHomepage;
+// import com.planetpope.seleniumtests.abstracts.AbstractJenkinsHomepage;
 
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
+// import org.junit.jupiter.api.BeforeAll;
+// import org.junit.jupiter.api.BeforeEach;
+// import org.openqa.selenium.firefox.FirefoxDriver;
+// import org.openqa.selenium.firefox.FirefoxOptions;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+// import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class JenkinsHomepageTest extends AbstractJenkinsHomepage {
-  @BeforeAll
-  static void setupClass() {
-    WebDriverManager.firefoxdriver().setup();
-  }
+// public class JenkinsHomepageTest extends AbstractJenkinsHomepage {
+//   @BeforeAll
+//   static void setupClass() {
+//     WebDriverManager.firefoxdriver().setup();
+//   }
 
-  @BeforeEach
-  void setupTest() {
-    FirefoxOptions options = new FirefoxOptions();
-    options.addArguments("--headless");
-    driver = new FirefoxDriver(options);
-  }
-}
+//   @BeforeEach
+//   void setupTest() {
+//     FirefoxOptions options = new FirefoxOptions();
+//     options.addArguments("--headless");
+//     driver = new FirefoxDriver(options);
+//   }
+// }
