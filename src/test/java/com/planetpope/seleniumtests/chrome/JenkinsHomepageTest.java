@@ -18,6 +18,7 @@ public class JenkinsHomepageTest extends AbstractJenkinsHomepage {
   @BeforeEach
   void setupTest() {
     ChromeOptions options = new ChromeOptions();
+    options.setBinary("/usr/local/bin/chrome-for-testing/chrome");
     options.addArguments("--headless");
     driver = new ChromeDriver(options);
   }
