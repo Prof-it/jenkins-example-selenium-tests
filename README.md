@@ -1,5 +1,2 @@
 # jenkins-example-selenium-tests
-This is the change from bob side.
-This is the preparation of jenkins for automatic testing --alice.
-Continue changing my local code and so on. 
-Bob made some new changes.
+Forked and adapted for teaching CI/CD with Jenkins, showcasing automated testing with Selenium integrated into the pipeline.
